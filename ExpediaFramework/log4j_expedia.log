@@ -1,0 +1,24 @@
+[Forwarding quit on session c98cea24-e733-40a2-a7b3-1375fd818635 to remote] DEBUG org.apache.http.wire  - http-outgoing-8 >> "DELETE /hub/session/c98cea24-e733-40a2-a7b3-1375fd818635 HTTP/1.1[\r][\n]"
+[Forwarding quit on session c98cea24-e733-40a2-a7b3-1375fd818635 to remote] DEBUG org.apache.http.wire  - http-outgoing-8 >> "Host: 127.0.0.1:7055[\r][\n]"
+[Forwarding quit on session c98cea24-e733-40a2-a7b3-1375fd818635 to remote] DEBUG org.apache.http.wire  - http-outgoing-8 >> "Connection: Keep-Alive[\r][\n]"
+[Forwarding quit on session c98cea24-e733-40a2-a7b3-1375fd818635 to remote] DEBUG org.apache.http.wire  - http-outgoing-8 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)[\r][\n]"
+[Forwarding quit on session c98cea24-e733-40a2-a7b3-1375fd818635 to remote] DEBUG org.apache.http.wire  - http-outgoing-8 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[Forwarding quit on session c98cea24-e733-40a2-a7b3-1375fd818635 to remote] DEBUG org.apache.http.wire  - http-outgoing-8 >> "[\r][\n]"
+[Forwarding quit on session c98cea24-e733-40a2-a7b3-1375fd818635 to remote] DEBUG org.apache.http.wire  - http-outgoing-8 << "HTTP/1.1 200 OK[\r][\n]"
+[Forwarding quit on session c98cea24-e733-40a2-a7b3-1375fd818635 to remote] DEBUG org.apache.http.wire  - http-outgoing-8 << "content-type: application/json; charset=UTF-8[\r][\n]"
+[Forwarding quit on session c98cea24-e733-40a2-a7b3-1375fd818635 to remote] DEBUG org.apache.http.wire  - http-outgoing-8 << "connection: close[\r][\n]"
+[Forwarding quit on session c98cea24-e733-40a2-a7b3-1375fd818635 to remote] DEBUG org.apache.http.wire  - http-outgoing-8 << "content-length: 88[\r][\n]"
+[Forwarding quit on session c98cea24-e733-40a2-a7b3-1375fd818635 to remote] DEBUG org.apache.http.wire  - http-outgoing-8 << "server: httpd.js[\r][\n]"
+[Forwarding quit on session c98cea24-e733-40a2-a7b3-1375fd818635 to remote] DEBUG org.apache.http.wire  - http-outgoing-8 << "date: Sat, 23 Jul 2016 06:38:29 GMT[\r][\n]"
+[Forwarding quit on session c98cea24-e733-40a2-a7b3-1375fd818635 to remote] DEBUG org.apache.http.wire  - http-outgoing-8 << "[\r][\n]"
+[Forwarding quit on session c98cea24-e733-40a2-a7b3-1375fd818635 to remote] DEBUG org.apache.http.wire  - http-outgoing-8 << "{"name":"quit","sessionId":"c98cea24-e733-40a2-a7b3-1375fd818635","status":0,"value":""}"
+[Forwarding quit on session c98cea24-e733-40a2-a7b3-1375fd818635 to remote] DEBUG org.apache.http.headers  - http-outgoing-8 << HTTP/1.1 200 OK
+[Forwarding quit on session c98cea24-e733-40a2-a7b3-1375fd818635 to remote] DEBUG org.apache.http.headers  - http-outgoing-8 << content-type: application/json; charset=UTF-8
+[Forwarding quit on session c98cea24-e733-40a2-a7b3-1375fd818635 to remote] DEBUG org.apache.http.headers  - http-outgoing-8 << connection: close
+[Forwarding quit on session c98cea24-e733-40a2-a7b3-1375fd818635 to remote] DEBUG org.apache.http.headers  - http-outgoing-8 << content-length: 88
+[Forwarding quit on session c98cea24-e733-40a2-a7b3-1375fd818635 to remote] DEBUG org.apache.http.headers  - http-outgoing-8 << server: httpd.js
+[Forwarding quit on session c98cea24-e733-40a2-a7b3-1375fd818635 to remote] DEBUG org.apache.http.headers  - http-outgoing-8 << date: Sat, 23 Jul 2016 06:38:29 GMT
+[Forwarding quit on session c98cea24-e733-40a2-a7b3-1375fd818635 to remote] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection  - http-outgoing-8: Close connection
+[Forwarding quit on session c98cea24-e733-40a2-a7b3-1375fd818635 to remote] DEBUG org.apache.http.impl.execchain.MainClientExec  - Connection discarded
+[Forwarding quit on session c98cea24-e733-40a2-a7b3-1375fd818635 to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection released: [id: 8][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+[Forwarding quit on session c98cea24-e733-40a2-a7b3-1375fd818635 to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Closing connections idle longer than 0 SECONDS
