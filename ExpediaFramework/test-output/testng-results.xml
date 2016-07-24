@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9164" started-at="2016-07-24T15:17:01Z" finished-at="2016-07-24T15:17:10Z">
+  <suite name="Default suite" duration-ms="11038" started-at="2016-07-24T15:39:12Z" finished-at="2016-07-24T15:39:23Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9164" started-at="2016-07-24T15:17:01Z" finished-at="2016-07-24T15:17:10Z">
+    <test name="Default test" duration-ms="11038" started-at="2016-07-24T15:39:12Z" finished-at="2016-07-24T15:39:23Z">
       <class name="Tests.AddingNewTest">
-        <test-method status="PASS" signature="setups()[pri:0, instance:Tests.AddingNewTest@402a079c]" name="setups" is-config="true" duration-ms="8947" started-at="2016-07-24T20:47:01Z" finished-at="2016-07-24T20:47:10Z">
+        <test-method status="PASS" signature="setups()[pri:0, instance:Tests.AddingNewTest@402a079c]" name="setups" is-config="true" duration-ms="10862" started-at="2016-07-24T21:09:12Z" finished-at="2016-07-24T21:09:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setups -->
-        <test-method status="PASS" signature="clickingfb()[pri:0, instance:Tests.AddingNewTest@402a079c]" name="clickingfb" duration-ms="193" started-at="2016-07-24T20:47:10Z" finished-at="2016-07-24T20:47:10Z">
+        <test-method status="PASS" signature="clickingfb()[pri:0, instance:Tests.AddingNewTest@402a079c]" name="clickingfb" duration-ms="168" started-at="2016-07-24T21:09:23Z" finished-at="2016-07-24T21:09:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickingfb -->
-        <test-method status="PASS" signature="test()[pri:0, instance:Tests.AddingNewTest@402a079c]" name="test" duration-ms="1" started-at="2016-07-24T20:47:10Z" finished-at="2016-07-24T20:47:10Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:Tests.AddingNewTest@402a079c]" name="test" duration-ms="2" started-at="2016-07-24T21:09:23Z" finished-at="2016-07-24T21:09:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->

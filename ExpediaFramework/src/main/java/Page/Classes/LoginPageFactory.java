@@ -1,8 +1,12 @@
 package Page.Classes;
+import java.io.IOException;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+
+import CustomObjects.ReadingProperties;
 
 public class LoginPageFactory {
 	
@@ -24,24 +28,24 @@ public class LoginPageFactory {
 	
 	
 	// Reading the cusstom properties
-//	public void propertieset(){
-//		try {
-//			ReadingProperties.Readingpropertiesv();
-//		} catch (IOException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		}		
-//	}
+	public void propertieset(){
+		try {
+			ReadingProperties.Readingpropertiesv();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}		
+	}
 	
-//	public void settingURL(){
-//		try {
-//			String vURL= ReadingProperties.Readingpropertiesv().getProperty("urlpage");
-//		} catch (IOException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		}	
-//		
-//	}
+	public void settingURL(){
+		try {
+			String vURL= ReadingProperties.Readingpropertiesv().getProperty("urlpage");
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}	
+		
+	}
 	
 	public void fbs(){
 	//	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);

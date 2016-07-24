@@ -1,12 +1,13 @@
 package Tests;
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 import org.apache.log4j.PropertyConfigurator;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import CustomObjects.ReadingProperties;
 import Page.Classes.LoginPageFactory;
 
 /**
@@ -23,17 +24,18 @@ public class AddingNewTest {
 	public static void  setups() {
 		driver = new FirefoxDriver();
 		System.out.println("I am running setup");		
-		baseURL = "https://www.expedia.co.in/user/signin?ckoflag=0";//		try {
-//			baseURL = ReadingProperties.Readingpropertiesv().getProperty("urlpage");
-//		} catch (IOException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		}
+	//	baseURL = "https://www.expedia.co.in/user/signin?ckoflag=0";
+				try {
+		baseURL = ReadingProperties.Readingpropertiesv().getProperty("urlpage");
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+	}
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get(baseURL);		
 		driver.manage().window().maximize();
 		lp = new LoginPageFactory(driver);
-		PropertyConfigurator.configure("Log4jproperties.properties");		
+		PropertyConfigurator.configure("Log4jproperties.properties");	
 			 
 	}	
 
