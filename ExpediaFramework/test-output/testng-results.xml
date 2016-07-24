@@ -2,28 +2,24 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13163" started-at="2016-07-22T05:15:26Z" finished-at="2016-07-22T05:15:39Z">
+  <suite name="Default suite" duration-ms="9164" started-at="2016-07-24T15:17:01Z" finished-at="2016-07-24T15:17:10Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13163" started-at="2016-07-22T05:15:26Z" finished-at="2016-07-22T05:15:39Z">
-      <class name="Tests.POM">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.POM@675d3402]" name="setup" is-config="true" duration-ms="11406" started-at="2016-07-22T10:45:14Z" finished-at="2016-07-22T10:45:26Z">
+    <test name="Default test" duration-ms="9164" started-at="2016-07-24T15:17:01Z" finished-at="2016-07-24T15:17:10Z">
+      <class name="Tests.AddingNewTest">
+        <test-method status="PASS" signature="setups()[pri:0, instance:Tests.AddingNewTest@402a079c]" name="setups" is-config="true" duration-ms="8947" started-at="2016-07-24T20:47:01Z" finished-at="2016-07-24T20:47:10Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="searchtest()[pri:0, instance:Tests.POM@675d3402]" name="searchtest" duration-ms="10405" started-at="2016-07-22T10:45:26Z" finished-at="2016-07-22T10:45:36Z">
+        </test-method> <!-- setups -->
+        <test-method status="PASS" signature="clickingfb()[pri:0, instance:Tests.AddingNewTest@402a079c]" name="clickingfb" duration-ms="193" started-at="2016-07-24T20:47:10Z" finished-at="2016-07-24T20:47:10Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchtest -->
-        <test-method status="PASS" signature="click()[pri:0, instance:Tests.POM@675d3402]" name="click" duration-ms="2746" started-at="2016-07-22T10:45:36Z" depends-on-methods="Tests.POM.searchtest" finished-at="2016-07-22T10:45:39Z">
+        </test-method> <!-- clickingfb -->
+        <test-method status="PASS" signature="test()[pri:0, instance:Tests.AddingNewTest@402a079c]" name="test" duration-ms="1" started-at="2016-07-24T20:47:10Z" finished-at="2016-07-24T20:47:10Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- click -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Tests.POM@675d3402]" name="teardown" is-config="true" duration-ms="748" started-at="2016-07-22T10:45:39Z" finished-at="2016-07-22T10:45:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- Tests.POM -->
+        </test-method> <!-- test -->
+      </class> <!-- Tests.AddingNewTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
