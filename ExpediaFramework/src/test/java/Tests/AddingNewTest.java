@@ -14,6 +14,7 @@ import Page.Classes.LoginPageFactory;
  * @author vinodtharavath
  *
  */
+//
 public class AddingNewTest {
 	private static WebDriver driver;
 	private static String baseURL;
