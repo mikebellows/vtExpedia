@@ -40,4 +40,10 @@
 </dependency>    
   </dependencies>
   
+    <scm>
+    	<url>https://github.com/mikebellows/vtExpedia</url>
+    	<connection>scm:git:git@github.com:mikebellows/vtExpedia.git</connection>
+    	<developerConnection>scm:git:git@github.com:mikebellows/vtExpedia.git</developerConnection>
+    	<tag>dev</tag>
+    </scm>
 </project>

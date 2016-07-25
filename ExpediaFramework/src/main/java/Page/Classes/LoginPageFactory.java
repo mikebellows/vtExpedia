@@ -1,6 +1,5 @@
 package Page.Classes;
 import java.io.IOException;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -12,9 +11,9 @@ public class LoginPageFactory {
 	
 	@FindBy(id="signin-loginid")
 	WebElement email;
-//	
-//	@FindBy(id="signin-password")
-//	WebElement pass;
+	
+	@FindBy(id="signin-password")
+	WebElement pass;
 	WebDriver driver;
 	
 	@FindBy(id="submitButton")
@@ -37,6 +36,7 @@ public class LoginPageFactory {
 		}		
 	}
 	
+	//setting the URL from property file
 	public void settingURL(){
 		try {
 			String vURL= ReadingProperties.Readingpropertiesv().getProperty("urlpage");
@@ -46,6 +46,7 @@ public class LoginPageFactory {
 		}	
 		
 	}
+	
 	
 	public void fbs(){
 	//	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);

@@ -5,8 +5,7 @@
     <classes>
       <class name="Tests.AddingNewTest">
         <methods>
-          <include name="AfterClass"/>
-          <include name="clickingfb"/>
+          <include name="titletest"/>
           <include name="setups"/>
         </methods>
       </class> <!-- Tests.AddingNewTest -->
