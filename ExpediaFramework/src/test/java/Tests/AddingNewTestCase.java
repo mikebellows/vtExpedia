@@ -54,6 +54,7 @@ public class AddingNewTestCase {
 
 		System.out.println("b4 click");
 		lp.fbs();
+		
 		System.out.println("post click");
 		// driver.findElement(By.id("submitButton")).click();;
 

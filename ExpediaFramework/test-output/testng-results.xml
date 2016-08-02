@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="1" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10149" started-at="2016-07-25T04:31:40Z" finished-at="2016-07-25T04:31:50Z">
+  <suite name="Default suite" duration-ms="22838" started-at="2016-07-27T09:10:09Z" finished-at="2016-07-27T09:10:32Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10149" started-at="2016-07-25T04:31:40Z" finished-at="2016-07-25T04:31:50Z">
-      <class name="Tests.AddingNewTest">
-        <test-method status="PASS" signature="setups()[pri:0, instance:Tests.AddingNewTest@5700d6b1]" name="setups" is-config="true" duration-ms="9558" started-at="2016-07-25T10:01:40Z" finished-at="2016-07-25T10:01:49Z">
+    <test name="Default test" duration-ms="22838" started-at="2016-07-27T09:10:09Z" finished-at="2016-07-27T09:10:32Z">
+      <class name="Tests.AddingNewTestCase">
+        <test-method status="PASS" signature="setups()[pri:0, instance:Tests.AddingNewTestCase@402a079c]" name="setups" is-config="true" duration-ms="22153" started-at="2016-07-27T14:40:09Z" finished-at="2016-07-27T14:40:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setups -->
-        <test-method status="PASS" signature="clickingfb()[pri:0, instance:Tests.AddingNewTest@5700d6b1]" name="clickingfb" duration-ms="226" started-at="2016-07-25T10:01:49Z" finished-at="2016-07-25T10:01:49Z">
+        <test-method status="PASS" signature="clickingfb()[pri:0, instance:Tests.AddingNewTestCase@402a079c]" name="clickingfb" duration-ms="381" started-at="2016-07-27T14:40:31Z" finished-at="2016-07-27T14:40:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickingfb -->
-        <test-method status="PASS" signature="test()[pri:0, instance:Tests.AddingNewTest@5700d6b1]" name="test" duration-ms="1" started-at="2016-07-25T10:01:49Z" finished-at="2016-07-25T10:01:49Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:Tests.AddingNewTestCase@402a079c]" name="test" duration-ms="2" started-at="2016-07-27T14:40:32Z" finished-at="2016-07-27T14:40:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="FAIL" signature="titletest()[pri:0, instance:Tests.AddingNewTest@5700d6b1]" name="titletest" duration-ms="345" started-at="2016-07-25T10:01:49Z" finished-at="2016-07-25T10:01:50Z">
+        <test-method status="FAIL" signature="titletest()[pri:0, instance:Tests.AddingNewTestCase@402a079c]" name="titletest" duration-ms="254" started-at="2016-07-27T14:40:32Z" finished-at="2016-07-27T14:40:32Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Hello World] but found [Sign In]]]>
@@ -31,7 +31,7 @@
 	at org.testng.Assert.assertEquals(Assert.java:125)
 	at org.testng.Assert.assertEquals(Assert.java:178)
 	at org.testng.Assert.assertEquals(Assert.java:188)
-	at Tests.AddingNewTest.titletest(AddingNewTest.java:75)
+	at Tests.AddingNewTestCase.titletest(AddingNewTestCase.java:76)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -62,7 +62,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- titletest -->
-      </class> <!-- Tests.AddingNewTest -->
+      </class> <!-- Tests.AddingNewTestCase -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -6,7 +6,7 @@
   <name>ExpediaFramework</name>
   <description>ExpediaFramework</description>
   <build>
-    <sourceDirectory>src</sourceDirectory>
+    
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
@@ -41,9 +41,6 @@
   </dependencies>
   
     <scm>
-    	<url>https://github.com/mikebellows/vtExpedia</url>
-    	<connection>scm:git:git@github.com:mikebellows/vtExpedia.git</connection>
-    	<developerConnection>scm:git:git@github.com:mikebellows/vtExpedia.git</developerConnection>
     	<tag>dev</tag>
     </scm>
 </project>

@@ -39,7 +39,7 @@ public class LoginPageFactory {
 	//setting the URL from property file
 	public void settingURL(){
 		try {
-			String vURL= ReadingProperties.Readingpropertiesv().getProperty("urlpage");
+			ReadingProperties.Readingpropertiesv().getProperty("urlpage");
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
